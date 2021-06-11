@@ -1,0 +1,24 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(75, 18, 233), rgb(54, 4, 112));
+  height: 100vh;
+}
+
+article {
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  padding: 40px;
+  box-shadow: 1px 1px 100px 10px rgba(0, 0, 0, .8);
+}
+
+mat-form-field {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 0px 8px;
+  border-radius: 5px;
+}
